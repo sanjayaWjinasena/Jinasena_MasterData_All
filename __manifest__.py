@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : MasterData : All',
-    'version': '17.0.0.0.1',
+    'version': '17.0.0.0.2',
     'summary': (
         'Meta-module — installs all 8 MasterData_* modules in dependency order. '
+        'Upgrading it cascades to every declared MasterData_* dep. '
         'One install seeds every domain (Common, Accounting, Stock, Sales, Purchase, '
         'MRP, HR, Repair).'
     ),
